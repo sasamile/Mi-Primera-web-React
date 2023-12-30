@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap");
+
+.Heroe {
+  background-color: #dadbf1;
+  height: 50rem;
+}
+.contenido {
+  display: grid;
+  place-items: center;
+}
+.Heroe-titulo {
+  font-size: 8rem;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+}
+.search input {
+  width: 80rem;
+  padding: 2rem;
+  font-size: 2rem;
+}
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search button {
+  font-size: 5rem;
+  background-color: transparent;
+  display: flex;
+  border: none;
+  margin-left: -7rem;
+  cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 840px) {
+    
+    .Heroe-titulo {
+        font-size: 5rem;
+    
+      }
+    
+    .search input {
+        width: 50rem;
+        padding: 2rem;
+        font-size: 2rem;
+      }
+
+}
+@media only screen and (max-width: 591px) {
+    .Heroe {
+        width: 100%;
+        height: 30rem;
+      }
+    
+    .Heroe-titulo {
+        font-size: 3rem;
+    
+      }
+    .search{
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: 2rem;
+    }
+    .search button {
+        font-size: 3rem;
+        margin-left: -5rem;
+      
+    }
+    .search input {
+        width: 30rem;
+        padding: 2rem;
+        font-size: 2rem;
+      }
+
+}
